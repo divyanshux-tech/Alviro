@@ -1,0 +1,2977 @@
+{
+  "restaurant": {
+    "name": "Al Viro",
+    "cuisine": "Authentic Italian Fine Dining",
+    "tagline": "A symphony of authentic Italian flavors crafted with passion and precision",
+    "location": "Via Roma 42, Culinary District",
+    "opening_hours": {
+      "Monday - Thursday": "12:00 PM - 10:30 PM",
+      "Friday - Saturday": "12:00 PM - 11:30 PM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "reservation_policy": "Reservations are held for up to 15 minutes. Large groups (6+) require a 24-hour advance booking.",
+    "dress_code": "Smart Casual",
+    "contact": {
+      "phone": "+1 (555) 234-5678",
+      "email": "assistant@alviro.com"
+    }
+  },
+  "dishes": [
+    {
+      "id": "dish_1",
+      "name": "Truffle Risotto",
+      "category": "Main",
+      "price": 28.0,
+      "description": "Creamy Carnaroli rice cooked with aromatic black winter truffles, aged Parmigiano Reggiano, and white wine glaze.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Carnaroli Rice",
+        "Black Winter Truffle",
+        "Parmigiano Reggiano",
+        "White Wine",
+        "Vegetable Broth",
+        "Butter",
+        "Shallots"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 520,
+      "prepTimeMinutes": 20,
+      "flavorProfile": [
+        "Creamy",
+        "Earthy",
+        "Rich",
+        "Savory"
+      ],
+      "winePairing": "Barolo DOCG or Pinot Noir"
+    },
+    {
+      "id": "dish_2",
+      "name": "Margherita Classica",
+      "category": "Pizza",
+      "price": 18.5,
+      "description": "Wood-fired traditional pizza with San Marzano tomato sauce, fresh buffalo mozzarella, fragrant basil, and extra virgin olive oil.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "San Marzano Tomatoes",
+        "Buffalo Mozzarella",
+        "Fresh Basil",
+        "00 Wheat Flour",
+        "Extra Virgin Olive Oil",
+        "Sea Salt"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories": 680,
+      "prepTimeMinutes": 12,
+      "flavorProfile": [
+        "Tangy",
+        "Cheesy",
+        "Fresh",
+        "Herby"
+      ],
+      "winePairing": "Chianti Classico"
+    },
+    {
+      "id": "dish_3",
+      "name": "Lobster Ravioli",
+      "category": "Pasta",
+      "price": 32.0,
+      "description": "Handmade squid-ink ravioli stuffed with Atlantic lobster and mascarpone, served in a delicate saffron shellfish bisque.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Atlantic Lobster",
+        "Mascarpone Cheese",
+        "Fresh Egg Pasta Dough",
+        "Saffron",
+        "Shellfish Broth",
+        "Tarragon",
+        "Garlic"
+      ],
+      "allergens": [
+        "Shellfish",
+        "Dairy",
+        "Gluten",
+        "Eggs"
+      ],
+      "calories": 590,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Savory",
+        "Sweet Shellfish",
+        "Creamy",
+        "Aromatic"
+      ],
+      "winePairing": "Vermentino or Pinot Grigio"
+    },
+    {
+      "id": "dish_4",
+      "name": "Osso Buco alla Milanese",
+      "category": "Main",
+      "price": 36.0,
+      "description": "Tender braised veal shank simmered with white wine, root vegetables, and gremolata, served over golden saffron risotto.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Veal Shank",
+        "Saffron",
+        "Carnaroli Rice",
+        "White Wine",
+        "Carrots",
+        "Celery",
+        "Lemon Gremolata",
+        "Beef Broth"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 780,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Savory",
+        "Tender",
+        "Rich",
+        "Citrus-Zesty"
+      ],
+      "winePairing": "Amarone della Valpolicella"
+    },
+    {
+      "id": "dish_5",
+      "name": "Penne all'Arrabbiata",
+      "category": "Pasta",
+      "price": 19.0,
+      "description": "Al dente penne pasta tossed in a fiery San Marzano tomato sauce infused with garlic, fresh red Calabrian chilies, and parsley.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": false,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Penne Pasta",
+        "San Marzano Tomatoes",
+        "Calabrian Chilies",
+        "Garlic",
+        "Extra Virgin Olive Oil",
+        "Fresh Parsley"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 460,
+      "prepTimeMinutes": 14,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Garlicky",
+        "Bold"
+      ],
+      "winePairing": "Primitivo or Nero d'Avola"
+    },
+    {
+      "id": "dish_6",
+      "name": "Bruschetta al Pomodoro",
+      "category": "Appetizer",
+      "price": 12.0,
+      "description": "Crispy toasted artisanal sourdough topped with marinated Heirloom tomatoes, roasted garlic, fresh basil, and balsamic reduction glaze.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Artisanal Sourdough",
+        "Heirloom Tomatoes",
+        "Roasted Garlic",
+        "Fresh Basil",
+        "Balsamic Glaze",
+        "Extra Virgin Olive Oil"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 240,
+      "prepTimeMinutes": 8,
+      "flavorProfile": [
+        "Crunchy",
+        "Tangy",
+        "Fresh",
+        "Garlicky"
+      ],
+      "winePairing": "Prosecco Superiore"
+    },
+    {
+      "id": "dish_7",
+      "name": "Classic Tiramisu",
+      "category": "Dessert",
+      "price": 11.5,
+      "description": "Traditional Venetian dessert layered with espresso-dipped Savoiardi ladyfingers, velvety mascarpone cream, and Dutch cocoa powder.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Savoiardi Ladyfingers",
+        "Mascarpone Cheese",
+        "Espresso",
+        "Pasteurized Eggs",
+        "Cane Sugar",
+        "Dark Cocoa Powder",
+        "Marsala Wine"
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories": 420,
+      "prepTimeMinutes": 5,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Coffee-Infused",
+        "Chocolatey"
+      ],
+      "winePairing": "Vin Santo or Espresso"
+    },
+    {
+      "id": "dish_8",
+      "name": "Fettuccine Alfredo con Pollo",
+      "category": "Pasta",
+      "price": 24.5,
+      "description": "Fresh fettuccine tossed in a rich emulsion of cultured butter, heavy cream, 24-month Parmigiano Reggiano, and grilled rosemary chicken.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Fresh Fettuccine",
+        "Grilled Chicken Breast",
+        "Cultured Butter",
+        "Heavy Cream",
+        "Parmigiano Reggiano",
+        "Rosemary",
+        "Nutmeg"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Eggs"
+      ],
+      "calories": 710,
+      "prepTimeMinutes": 16,
+      "flavorProfile": [
+        "Creamy",
+        "Savory",
+        "Cheesy",
+        "Comforting"
+      ],
+      "winePairing": "Soave Classico or Chardonnay"
+    },
+    {
+      "id": "dish_9",
+      "name": "Diavola Pizza",
+      "category": "Pizza",
+      "price": 21.0,
+      "description": "Wood-fired sourdough pizza topped with spicy Calabrian salami, Fior di Latte mozzarella, chili honey drizzle, and fresh oregano.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spicy Calabrian Salami",
+        "Fior di Latte Mozzarella",
+        "San Marzano Sauce",
+        "Hot Honey",
+        "Oregano",
+        "00 Flour"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories": 740,
+      "prepTimeMinutes": 12,
+      "flavorProfile": [
+        "Spicy",
+        "Savory",
+        "Slightly Sweet",
+        "Smoky"
+      ],
+      "winePairing": "Valpolicella Ripasso"
+    },
+    {
+      "id": "dish_10",
+      "name": "Burrata Pugliese Salad",
+      "category": "Appetizer",
+      "price": 16.0,
+      "description": "Fresh whole artisanal burrata cheese surrounded by roasted sweet cherry tomatoes, wild arugula, pine nut pesto, and aged balsamic glaze.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Artisanal Burrata",
+        "Cherry Tomatoes",
+        "Wild Arugula",
+        "Pine Nuts",
+        "Basil Pesto",
+        "Aged Balsamic Glaze"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 380,
+      "prepTimeMinutes": 8,
+      "flavorProfile": [
+        "Creamy",
+        "Nutty",
+        "Peppery",
+        "Fresh"
+      ],
+      "winePairing": "Gavi di Gavi"
+    },
+    {
+      "id": "dish_11",
+      "name": "Butter Chicken",
+      "category": "Main",
+      "price": 22.0,
+      "description": "Rich and creamy tomato-based curry with tender tandoori chicken pieces.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 727,
+      "prepTimeMinutes": 17,
+      "flavorProfile": [
+        "Creamy",
+        "Savory",
+        "Slightly Sweet"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_12",
+      "name": "Paneer Tikka Masala",
+      "category": "Main",
+      "price": 19.5,
+      "description": "Marinated cottage cheese cubes grilled and simmered in a spiced tomato-onion gravy.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 331,
+      "prepTimeMinutes": 16,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Rich"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_13",
+      "name": "Dal Makhani",
+      "category": "Main",
+      "price": 16.0,
+      "description": "Slow-cooked black lentils and kidney beans enriched with cream and butter.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 325,
+      "prepTimeMinutes": 26,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Comforting"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_14",
+      "name": "Chicken Biryani",
+      "category": "Main",
+      "price": 24.0,
+      "description": "Aromatic basmati rice cooked with marinated chicken, saffron, and whole spices.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 382,
+      "prepTimeMinutes": 29,
+      "flavorProfile": [
+        "Aromatic",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_15",
+      "name": "Mutton Rogan Josh",
+      "category": "Main",
+      "price": 26.0,
+      "description": "Classic Kashmiri curry featuring tender lamb slow-cooked with aromatic spices.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 613,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Spicy",
+        "Robust",
+        "Earthy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_16",
+      "name": "Palak Paneer",
+      "category": "Main",
+      "price": 18.0,
+      "description": "Fresh spinach puree cooked with spices and soft paneer cubes.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 270,
+      "prepTimeMinutes": 32,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Healthy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_17",
+      "name": "Chole Bhature",
+      "category": "Main",
+      "price": 15.0,
+      "description": "Spicy chickpea curry served with deep-fried fluffy bread.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 535,
+      "prepTimeMinutes": 39,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_18",
+      "name": "Malai Kofta",
+      "category": "Main",
+      "price": 20.0,
+      "description": "Fried potato and paneer dumplings in a rich, sweet, and creamy cashew gravy.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 310,
+      "prepTimeMinutes": 36,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Rich"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_19",
+      "name": "Garlic Naan",
+      "category": "Bread",
+      "price": 4.5,
+      "description": "Soft, tandoor-baked flatbread brushed with butter and minced garlic.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "calories": 600,
+      "prepTimeMinutes": 37,
+      "flavorProfile": [
+        "Garlicky",
+        "Buttery",
+        "Chewy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_20",
+      "name": "Tandoori Roti",
+      "category": "Bread",
+      "price": 3.0,
+      "description": "Whole wheat flatbread baked in a traditional clay oven.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 373,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Earthy",
+        "Crispy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_21",
+      "name": "Samosa",
+      "category": "Appetizer",
+      "price": 6.0,
+      "description": "Crispy pastry filled with spiced potatoes and peas, served with mint chutney.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 688,
+      "prepTimeMinutes": 19,
+      "flavorProfile": [
+        "Crispy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_22",
+      "name": "Pani Puri",
+      "category": "Appetizer",
+      "price": 8.0,
+      "description": "Hollow crispy puris filled with spiced potato and tangy tamarind water.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 475,
+      "prepTimeMinutes": 37,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Crispy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_23",
+      "name": "Gulab Jamun",
+      "category": "Dessert",
+      "price": 7.0,
+      "description": "Deep-fried milk dumplings soaked in a warm, fragrant rose and cardamom syrup.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories": 353,
+      "prepTimeMinutes": 21,
+      "flavorProfile": [
+        "Sweet",
+        "Syrupy",
+        "Warm"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_24",
+      "name": "Rasmalai",
+      "category": "Dessert",
+      "price": 8.5,
+      "description": "Soft cottage cheese patties immersed in sweetened, saffron-infused milk.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 302,
+      "prepTimeMinutes": 15,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Cardamom-infused"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_25",
+      "name": "Mango Kulfi",
+      "category": "Dessert",
+      "price": 6.5,
+      "description": "Traditional Indian ice cream made with rich cream, Alphonso mangoes, and pistachios.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 372,
+      "prepTimeMinutes": 41,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Creamy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_26",
+      "name": "Mango Lassi",
+      "category": "Beverage",
+      "price": 5.0,
+      "description": "Refreshing yogurt-based drink blended with sweet ripe mangoes.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 270,
+      "prepTimeMinutes": 26,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Cooling"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_27",
+      "name": "Masala Chai",
+      "category": "Beverage",
+      "price": 4.0,
+      "description": "Spiced Indian tea brewed with milk, ginger, cardamom, and cloves.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 211,
+      "prepTimeMinutes": 39,
+      "flavorProfile": [
+        "Spicy",
+        "Warm",
+        "Aromatic"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_28",
+      "name": "Aloo Gobi",
+      "category": "Main",
+      "price": 16.5,
+      "description": "Classic dry curry made with potatoes, cauliflower, and traditional Indian spices.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 755,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Earthy",
+        "Spicy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_29",
+      "name": "Bhindi Masala",
+      "category": "Main",
+      "price": 17.0,
+      "description": "Stir-fried okra with onions, tomatoes, and tangy spices.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 578,
+      "prepTimeMinutes": 22,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_30",
+      "name": "Fish Tikka",
+      "category": "Appetizer",
+      "price": 18.0,
+      "description": "Chunks of fish marinated in yogurt and spices, char-grilled to perfection.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish"
+      ],
+      "calories": 687,
+      "prepTimeMinutes": 23,
+      "flavorProfile": [
+        "Smoky",
+        "Spicy",
+        "Tender"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_31",
+      "name": "Spicy Butter Chicken",
+      "category": "Main",
+      "price": 23.0,
+      "description": "Rich and creamy tomato-based curry with tender tandoori chicken pieces. Extra spicy for those who love a kick.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 401,
+      "prepTimeMinutes": 19,
+      "flavorProfile": [
+        "Creamy",
+        "Savory",
+        "Slightly Sweet",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_32",
+      "name": "Homestyle Paneer Tikka Masala",
+      "category": "Main",
+      "price": 18.5,
+      "description": "Marinated cottage cheese cubes grilled and simmered in a spiced tomato-onion gravy. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 321,
+      "prepTimeMinutes": 30,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Rich"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_33",
+      "name": "Homestyle Dal Makhani",
+      "category": "Main",
+      "price": 15.0,
+      "description": "Slow-cooked black lentils and kidney beans enriched with cream and butter. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 341,
+      "prepTimeMinutes": 42,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Comforting"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_34",
+      "name": "Spicy Chicken Biryani",
+      "category": "Main",
+      "price": 25.0,
+      "description": "Aromatic basmati rice cooked with marinated chicken, saffron, and whole spices. Extra spicy for those who love a kick.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 715,
+      "prepTimeMinutes": 23,
+      "flavorProfile": [
+        "Aromatic",
+        "Spicy",
+        "Savory",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_35",
+      "name": "Homestyle Mutton Rogan Josh",
+      "category": "Main",
+      "price": 25.0,
+      "description": "Classic Kashmiri curry featuring tender lamb slow-cooked with aromatic spices. Light and comforting, just like home.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 318,
+      "prepTimeMinutes": 39,
+      "flavorProfile": [
+        "Spicy",
+        "Robust",
+        "Earthy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_36",
+      "name": "Homestyle Palak Paneer",
+      "category": "Main",
+      "price": 17.0,
+      "description": "Fresh spinach puree cooked with spices and soft paneer cubes. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 386,
+      "prepTimeMinutes": 16,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Healthy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_37",
+      "name": "Jain Chole Bhature",
+      "category": "Main",
+      "price": 15.0,
+      "description": "Prepared strictly without onion or garlic. Spicy chickpea curry served with deep-fried fluffy bread.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 545,
+      "prepTimeMinutes": 28,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_38",
+      "name": "Homestyle Malai Kofta",
+      "category": "Main",
+      "price": 19.0,
+      "description": "Fried potato and paneer dumplings in a rich, sweet, and creamy cashew gravy. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 531,
+      "prepTimeMinutes": 22,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Rich"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_39",
+      "name": "Premium Garlic Naan",
+      "category": "Bread",
+      "price": 9.5,
+      "description": "Soft, tandoor-baked flatbread brushed with butter and minced garlic. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "calories": 640,
+      "prepTimeMinutes": 21,
+      "flavorProfile": [
+        "Garlicky",
+        "Buttery",
+        "Chewy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_40",
+      "name": "Special Tandoori Roti",
+      "category": "Bread",
+      "price": 5.0,
+      "description": "Whole wheat flatbread baked in a traditional clay oven. Our chef's special take on the classic.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 543,
+      "prepTimeMinutes": 10,
+      "flavorProfile": [
+        "Earthy",
+        "Crispy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_41",
+      "name": "Premium Samosa",
+      "category": "Appetizer",
+      "price": 11.0,
+      "description": "Crispy pastry filled with spiced potatoes and peas, served with mint chutney. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 202,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Crispy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_42",
+      "name": "Homestyle Pani Puri",
+      "category": "Appetizer",
+      "price": 7.0,
+      "description": "Hollow crispy puris filled with spiced potato and tangy tamarind water. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 265,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Crispy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_43",
+      "name": "Spicy Gulab Jamun",
+      "category": "Dessert",
+      "price": 8.0,
+      "description": "Deep-fried milk dumplings soaked in a warm, fragrant rose and cardamom syrup. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories": 796,
+      "prepTimeMinutes": 26,
+      "flavorProfile": [
+        "Sweet",
+        "Syrupy",
+        "Warm",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_44",
+      "name": "Jain Rasmalai",
+      "category": "Dessert",
+      "price": 8.5,
+      "description": "Prepared strictly without onion or garlic. Soft cottage cheese patties immersed in sweetened, saffron-infused milk.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 395,
+      "prepTimeMinutes": 14,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Cardamom-infused"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_45",
+      "name": "Spicy Mango Kulfi",
+      "category": "Dessert",
+      "price": 7.5,
+      "description": "Traditional Indian ice cream made with rich cream, Alphonso mangoes, and pistachios. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 676,
+      "prepTimeMinutes": 37,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Creamy",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_46",
+      "name": "Special Mango Lassi",
+      "category": "Beverage",
+      "price": 7.0,
+      "description": "Refreshing yogurt-based drink blended with sweet ripe mangoes. Our chef's special take on the classic.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 532,
+      "prepTimeMinutes": 40,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Cooling"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_47",
+      "name": "Spicy Masala Chai",
+      "category": "Beverage",
+      "price": 5.0,
+      "description": "Spiced Indian tea brewed with milk, ginger, cardamom, and cloves. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 296,
+      "prepTimeMinutes": 37,
+      "flavorProfile": [
+        "Spicy",
+        "Warm",
+        "Aromatic",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_48",
+      "name": "Jain Aloo Gobi",
+      "category": "Main",
+      "price": 16.5,
+      "description": "Prepared strictly without onion or garlic. Classic dry curry made with potatoes, cauliflower, and traditional Indian spices.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 667,
+      "prepTimeMinutes": 12,
+      "flavorProfile": [
+        "Earthy",
+        "Spicy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_49",
+      "name": "Jain Bhindi Masala",
+      "category": "Main",
+      "price": 17.0,
+      "description": "Prepared strictly without onion or garlic. Stir-fried okra with onions, tomatoes, and tangy spices.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 707,
+      "prepTimeMinutes": 33,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_50",
+      "name": "Special Fish Tikka",
+      "category": "Appetizer",
+      "price": 20.0,
+      "description": "Chunks of fish marinated in yogurt and spices, char-grilled to perfection. Our chef's special take on the classic.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish"
+      ],
+      "calories": 205,
+      "prepTimeMinutes": 17,
+      "flavorProfile": [
+        "Smoky",
+        "Spicy",
+        "Tender"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_51",
+      "name": "Jain Butter Chicken",
+      "category": "Main",
+      "price": 22.0,
+      "description": "Prepared strictly without onion or garlic. Rich and creamy tomato-based curry with tender tandoori chicken pieces.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 693,
+      "prepTimeMinutes": 38,
+      "flavorProfile": [
+        "Creamy",
+        "Savory",
+        "Slightly Sweet"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_52",
+      "name": "Spicy Paneer Tikka Masala",
+      "category": "Main",
+      "price": 20.5,
+      "description": "Marinated cottage cheese cubes grilled and simmered in a spiced tomato-onion gravy. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 482,
+      "prepTimeMinutes": 15,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Rich",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_53",
+      "name": "Spicy Dal Makhani",
+      "category": "Main",
+      "price": 17.0,
+      "description": "Slow-cooked black lentils and kidney beans enriched with cream and butter. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 777,
+      "prepTimeMinutes": 39,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Comforting",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_54",
+      "name": "Homestyle Chicken Biryani",
+      "category": "Main",
+      "price": 23.0,
+      "description": "Aromatic basmati rice cooked with marinated chicken, saffron, and whole spices. Light and comforting, just like home.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 232,
+      "prepTimeMinutes": 26,
+      "flavorProfile": [
+        "Aromatic",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_55",
+      "name": "Premium Mutton Rogan Josh",
+      "category": "Main",
+      "price": 31.0,
+      "description": "Classic Kashmiri curry featuring tender lamb slow-cooked with aromatic spices. Made with premium, organic ingredients.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 754,
+      "prepTimeMinutes": 44,
+      "flavorProfile": [
+        "Spicy",
+        "Robust",
+        "Earthy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_56",
+      "name": "Premium Palak Paneer",
+      "category": "Main",
+      "price": 23.0,
+      "description": "Fresh spinach puree cooked with spices and soft paneer cubes. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 523,
+      "prepTimeMinutes": 35,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Healthy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_57",
+      "name": "Spicy Chole Bhature",
+      "category": "Main",
+      "price": 16.0,
+      "description": "Spicy chickpea curry served with deep-fried fluffy bread. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 283,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Comforting",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_58",
+      "name": "Spicy Malai Kofta",
+      "category": "Main",
+      "price": 21.0,
+      "description": "Fried potato and paneer dumplings in a rich, sweet, and creamy cashew gravy. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 577,
+      "prepTimeMinutes": 45,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Rich",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_59",
+      "name": "Spicy Garlic Naan",
+      "category": "Bread",
+      "price": 5.5,
+      "description": "Soft, tandoor-baked flatbread brushed with butter and minced garlic. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "calories": 447,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Garlicky",
+        "Buttery",
+        "Chewy",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_60",
+      "name": "Jain Tandoori Roti",
+      "category": "Bread",
+      "price": 3.0,
+      "description": "Prepared strictly without onion or garlic. Whole wheat flatbread baked in a traditional clay oven.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 415,
+      "prepTimeMinutes": 30,
+      "flavorProfile": [
+        "Earthy",
+        "Crispy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_61",
+      "name": "Jain Samosa",
+      "category": "Appetizer",
+      "price": 6.0,
+      "description": "Prepared strictly without onion or garlic. Crispy pastry filled with spiced potatoes and peas, served with mint chutney.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 645,
+      "prepTimeMinutes": 32,
+      "flavorProfile": [
+        "Crispy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_62",
+      "name": "Jain Pani Puri",
+      "category": "Appetizer",
+      "price": 8.0,
+      "description": "Prepared strictly without onion or garlic. Hollow crispy puris filled with spiced potato and tangy tamarind water.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 666,
+      "prepTimeMinutes": 11,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Crispy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_63",
+      "name": "Premium Gulab Jamun",
+      "category": "Dessert",
+      "price": 12.0,
+      "description": "Deep-fried milk dumplings soaked in a warm, fragrant rose and cardamom syrup. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories": 371,
+      "prepTimeMinutes": 35,
+      "flavorProfile": [
+        "Sweet",
+        "Syrupy",
+        "Warm"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_64",
+      "name": "Homestyle Rasmalai",
+      "category": "Dessert",
+      "price": 7.5,
+      "description": "Soft cottage cheese patties immersed in sweetened, saffron-infused milk. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 626,
+      "prepTimeMinutes": 20,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Cardamom-infused"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_65",
+      "name": "Spicy Mango Kulfi",
+      "category": "Dessert",
+      "price": 7.5,
+      "description": "Traditional Indian ice cream made with rich cream, Alphonso mangoes, and pistachios. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 387,
+      "prepTimeMinutes": 28,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Creamy",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_66",
+      "name": "Jain Mango Lassi",
+      "category": "Beverage",
+      "price": 5.0,
+      "description": "Prepared strictly without onion or garlic. Refreshing yogurt-based drink blended with sweet ripe mangoes.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 465,
+      "prepTimeMinutes": 22,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Cooling"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_67",
+      "name": "Jain Masala Chai",
+      "category": "Beverage",
+      "price": 4.0,
+      "description": "Prepared strictly without onion or garlic. Spiced Indian tea brewed with milk, ginger, cardamom, and cloves.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 216,
+      "prepTimeMinutes": 33,
+      "flavorProfile": [
+        "Spicy",
+        "Warm",
+        "Aromatic"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_68",
+      "name": "Jain Aloo Gobi",
+      "category": "Main",
+      "price": 16.5,
+      "description": "Prepared strictly without onion or garlic. Classic dry curry made with potatoes, cauliflower, and traditional Indian spices.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 722,
+      "prepTimeMinutes": 20,
+      "flavorProfile": [
+        "Earthy",
+        "Spicy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_69",
+      "name": "Premium Bhindi Masala",
+      "category": "Main",
+      "price": 22.0,
+      "description": "Stir-fried okra with onions, tomatoes, and tangy spices. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 554,
+      "prepTimeMinutes": 19,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_70",
+      "name": "Premium Fish Tikka",
+      "category": "Appetizer",
+      "price": 23.0,
+      "description": "Chunks of fish marinated in yogurt and spices, char-grilled to perfection. Made with premium, organic ingredients.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish"
+      ],
+      "calories": 328,
+      "prepTimeMinutes": 38,
+      "flavorProfile": [
+        "Smoky",
+        "Spicy",
+        "Tender"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_71",
+      "name": "Homestyle Butter Chicken",
+      "category": "Main",
+      "price": 21.0,
+      "description": "Rich and creamy tomato-based curry with tender tandoori chicken pieces. Light and comforting, just like home.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 648,
+      "prepTimeMinutes": 33,
+      "flavorProfile": [
+        "Creamy",
+        "Savory",
+        "Slightly Sweet"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_72",
+      "name": "Premium Paneer Tikka Masala",
+      "category": "Main",
+      "price": 24.5,
+      "description": "Marinated cottage cheese cubes grilled and simmered in a spiced tomato-onion gravy. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 323,
+      "prepTimeMinutes": 34,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Rich"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_73",
+      "name": "Premium Dal Makhani",
+      "category": "Main",
+      "price": 21.0,
+      "description": "Slow-cooked black lentils and kidney beans enriched with cream and butter. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 208,
+      "prepTimeMinutes": 39,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Comforting"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_74",
+      "name": "Homestyle Chicken Biryani",
+      "category": "Main",
+      "price": 23.0,
+      "description": "Aromatic basmati rice cooked with marinated chicken, saffron, and whole spices. Light and comforting, just like home.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 531,
+      "prepTimeMinutes": 24,
+      "flavorProfile": [
+        "Aromatic",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_75",
+      "name": "Homestyle Mutton Rogan Josh",
+      "category": "Main",
+      "price": 25.0,
+      "description": "Classic Kashmiri curry featuring tender lamb slow-cooked with aromatic spices. Light and comforting, just like home.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 246,
+      "prepTimeMinutes": 38,
+      "flavorProfile": [
+        "Spicy",
+        "Robust",
+        "Earthy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_76",
+      "name": "Premium Palak Paneer",
+      "category": "Main",
+      "price": 23.0,
+      "description": "Fresh spinach puree cooked with spices and soft paneer cubes. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 232,
+      "prepTimeMinutes": 21,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Healthy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_77",
+      "name": "Premium Chole Bhature",
+      "category": "Main",
+      "price": 20.0,
+      "description": "Spicy chickpea curry served with deep-fried fluffy bread. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 354,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_78",
+      "name": "Jain Malai Kofta",
+      "category": "Main",
+      "price": 20.0,
+      "description": "Prepared strictly without onion or garlic. Fried potato and paneer dumplings in a rich, sweet, and creamy cashew gravy.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 458,
+      "prepTimeMinutes": 44,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Rich"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_79",
+      "name": "Spicy Garlic Naan",
+      "category": "Bread",
+      "price": 5.5,
+      "description": "Soft, tandoor-baked flatbread brushed with butter and minced garlic. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "calories": 774,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Garlicky",
+        "Buttery",
+        "Chewy",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_80",
+      "name": "Premium Tandoori Roti",
+      "category": "Bread",
+      "price": 8.0,
+      "description": "Whole wheat flatbread baked in a traditional clay oven. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 203,
+      "prepTimeMinutes": 37,
+      "flavorProfile": [
+        "Earthy",
+        "Crispy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_81",
+      "name": "Jain Samosa",
+      "category": "Appetizer",
+      "price": 6.0,
+      "description": "Prepared strictly without onion or garlic. Crispy pastry filled with spiced potatoes and peas, served with mint chutney.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 340,
+      "prepTimeMinutes": 28,
+      "flavorProfile": [
+        "Crispy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_82",
+      "name": "Special Pani Puri",
+      "category": "Appetizer",
+      "price": 10.0,
+      "description": "Hollow crispy puris filled with spiced potato and tangy tamarind water. Our chef's special take on the classic.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 757,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Crispy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_83",
+      "name": "Homestyle Gulab Jamun",
+      "category": "Dessert",
+      "price": 6.0,
+      "description": "Deep-fried milk dumplings soaked in a warm, fragrant rose and cardamom syrup. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories": 487,
+      "prepTimeMinutes": 38,
+      "flavorProfile": [
+        "Sweet",
+        "Syrupy",
+        "Warm"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_84",
+      "name": "Spicy Rasmalai",
+      "category": "Dessert",
+      "price": 9.5,
+      "description": "Soft cottage cheese patties immersed in sweetened, saffron-infused milk. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 627,
+      "prepTimeMinutes": 42,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Cardamom-infused",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_85",
+      "name": "Homestyle Mango Kulfi",
+      "category": "Dessert",
+      "price": 5.5,
+      "description": "Traditional Indian ice cream made with rich cream, Alphonso mangoes, and pistachios. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 343,
+      "prepTimeMinutes": 35,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Creamy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_86",
+      "name": "Special Mango Lassi",
+      "category": "Beverage",
+      "price": 7.0,
+      "description": "Refreshing yogurt-based drink blended with sweet ripe mangoes. Our chef's special take on the classic.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 269,
+      "prepTimeMinutes": 40,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Cooling"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_87",
+      "name": "Premium Masala Chai",
+      "category": "Beverage",
+      "price": 9.0,
+      "description": "Spiced Indian tea brewed with milk, ginger, cardamom, and cloves. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 643,
+      "prepTimeMinutes": 42,
+      "flavorProfile": [
+        "Spicy",
+        "Warm",
+        "Aromatic"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_88",
+      "name": "Special Aloo Gobi",
+      "category": "Main",
+      "price": 18.5,
+      "description": "Classic dry curry made with potatoes, cauliflower, and traditional Indian spices. Our chef's special take on the classic.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 453,
+      "prepTimeMinutes": 45,
+      "flavorProfile": [
+        "Earthy",
+        "Spicy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_89",
+      "name": "Jain Bhindi Masala",
+      "category": "Main",
+      "price": 17.0,
+      "description": "Prepared strictly without onion or garlic. Stir-fried okra with onions, tomatoes, and tangy spices.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 577,
+      "prepTimeMinutes": 16,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_90",
+      "name": "Spicy Fish Tikka",
+      "category": "Appetizer",
+      "price": 19.0,
+      "description": "Chunks of fish marinated in yogurt and spices, char-grilled to perfection. Extra spicy for those who love a kick.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish"
+      ],
+      "calories": 393,
+      "prepTimeMinutes": 19,
+      "flavorProfile": [
+        "Smoky",
+        "Spicy",
+        "Tender",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_91",
+      "name": "Jain Butter Chicken",
+      "category": "Main",
+      "price": 22.0,
+      "description": "Prepared strictly without onion or garlic. Rich and creamy tomato-based curry with tender tandoori chicken pieces.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 531,
+      "prepTimeMinutes": 21,
+      "flavorProfile": [
+        "Creamy",
+        "Savory",
+        "Slightly Sweet"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_92",
+      "name": "Jain Paneer Tikka Masala",
+      "category": "Main",
+      "price": 19.5,
+      "description": "Prepared strictly without onion or garlic. Marinated cottage cheese cubes grilled and simmered in a spiced tomato-onion gravy.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 651,
+      "prepTimeMinutes": 20,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Rich"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_93",
+      "name": "Spicy Dal Makhani",
+      "category": "Main",
+      "price": 17.0,
+      "description": "Slow-cooked black lentils and kidney beans enriched with cream and butter. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 265,
+      "prepTimeMinutes": 19,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Comforting",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_94",
+      "name": "Spicy Chicken Biryani",
+      "category": "Main",
+      "price": 25.0,
+      "description": "Aromatic basmati rice cooked with marinated chicken, saffron, and whole spices. Extra spicy for those who love a kick.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 252,
+      "prepTimeMinutes": 10,
+      "flavorProfile": [
+        "Aromatic",
+        "Spicy",
+        "Savory",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_95",
+      "name": "Spicy Mutton Rogan Josh",
+      "category": "Main",
+      "price": 27.0,
+      "description": "Classic Kashmiri curry featuring tender lamb slow-cooked with aromatic spices. Extra spicy for those who love a kick.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 611,
+      "prepTimeMinutes": 40,
+      "flavorProfile": [
+        "Spicy",
+        "Robust",
+        "Earthy",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_96",
+      "name": "Premium Palak Paneer",
+      "category": "Main",
+      "price": 23.0,
+      "description": "Fresh spinach puree cooked with spices and soft paneer cubes. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Mild",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 551,
+      "prepTimeMinutes": 15,
+      "flavorProfile": [
+        "Earthy",
+        "Creamy",
+        "Healthy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_97",
+      "name": "Spicy Chole Bhature",
+      "category": "Main",
+      "price": 16.0,
+      "description": "Spicy chickpea curry served with deep-fried fluffy bread. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 383,
+      "prepTimeMinutes": 27,
+      "flavorProfile": [
+        "Spicy",
+        "Tangy",
+        "Comforting",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_98",
+      "name": "Premium Malai Kofta",
+      "category": "Main",
+      "price": 25.0,
+      "description": "Fried potato and paneer dumplings in a rich, sweet, and creamy cashew gravy. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 689,
+      "prepTimeMinutes": 34,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Rich"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_99",
+      "name": "Premium Garlic Naan",
+      "category": "Bread",
+      "price": 9.5,
+      "description": "Soft, tandoor-baked flatbread brushed with butter and minced garlic. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten",
+        "Dairy"
+      ],
+      "calories": 633,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Garlicky",
+        "Buttery",
+        "Chewy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_100",
+      "name": "Special Tandoori Roti",
+      "category": "Bread",
+      "price": 5.0,
+      "description": "Whole wheat flatbread baked in a traditional clay oven. Our chef's special take on the classic.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 492,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Earthy",
+        "Crispy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_101",
+      "name": "Jain Samosa",
+      "category": "Appetizer",
+      "price": 6.0,
+      "description": "Prepared strictly without onion or garlic. Crispy pastry filled with spiced potatoes and peas, served with mint chutney.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 638,
+      "prepTimeMinutes": 27,
+      "flavorProfile": [
+        "Crispy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_102",
+      "name": "Homestyle Pani Puri",
+      "category": "Appetizer",
+      "price": 7.0,
+      "description": "Hollow crispy puris filled with spiced potato and tangy tamarind water. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories": 350,
+      "prepTimeMinutes": 41,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Crispy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_103",
+      "name": "Homestyle Gulab Jamun",
+      "category": "Dessert",
+      "price": 6.0,
+      "description": "Deep-fried milk dumplings soaked in a warm, fragrant rose and cardamom syrup. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories": 526,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Sweet",
+        "Syrupy",
+        "Warm"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_104",
+      "name": "Spicy Rasmalai",
+      "category": "Dessert",
+      "price": 9.5,
+      "description": "Soft cottage cheese patties immersed in sweetened, saffron-infused milk. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 360,
+      "prepTimeMinutes": 16,
+      "flavorProfile": [
+        "Sweet",
+        "Creamy",
+        "Cardamom-infused",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_105",
+      "name": "Special Mango Kulfi",
+      "category": "Dessert",
+      "price": 8.5,
+      "description": "Traditional Indian ice cream made with rich cream, Alphonso mangoes, and pistachios. Our chef's special take on the classic.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Flour",
+        "Sugar"
+      ],
+      "allergens": [
+        "Dairy",
+        "Nuts"
+      ],
+      "calories": 491,
+      "prepTimeMinutes": 27,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Creamy"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_106",
+      "name": "Homestyle Mango Lassi",
+      "category": "Beverage",
+      "price": 4.0,
+      "description": "Refreshing yogurt-based drink blended with sweet ripe mangoes. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "None",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 280,
+      "prepTimeMinutes": 25,
+      "flavorProfile": [
+        "Sweet",
+        "Fruity",
+        "Cooling"
+      ],
+      "winePairing": "Chardonnay"
+    },
+    {
+      "id": "dish_107",
+      "name": "Spicy Masala Chai",
+      "category": "Beverage",
+      "price": 5.0,
+      "description": "Spiced Indian tea brewed with milk, ginger, cardamom, and cloves. Extra spicy for those who love a kick.",
+      "isVegetarian": true,
+      "isVegan": false,
+      "isGlutenFree": false,
+      "spiceLevel": "Extra Hot",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories": 266,
+      "prepTimeMinutes": 32,
+      "flavorProfile": [
+        "Spicy",
+        "Warm",
+        "Aromatic",
+        "Extra Spicy"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_108",
+      "name": "Premium Aloo Gobi",
+      "category": "Main",
+      "price": 21.5,
+      "description": "Classic dry curry made with potatoes, cauliflower, and traditional Indian spices. Made with premium, organic ingredients.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 556,
+      "prepTimeMinutes": 42,
+      "flavorProfile": [
+        "Earthy",
+        "Spicy",
+        "Comforting"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_109",
+      "name": "Homestyle Bhindi Masala",
+      "category": "Main",
+      "price": 16.0,
+      "description": "Stir-fried okra with onions, tomatoes, and tangy spices. Light and comforting, just like home.",
+      "isVegetarian": true,
+      "isVegan": true,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Indian Spices",
+        "Onions",
+        "Tomatoes"
+      ],
+      "allergens": [],
+      "calories": 357,
+      "prepTimeMinutes": 18,
+      "flavorProfile": [
+        "Tangy",
+        "Spicy",
+        "Savory"
+      ],
+      "winePairing": "Indian Pale Ale"
+    },
+    {
+      "id": "dish_110",
+      "name": "Jain Fish Tikka",
+      "category": "Appetizer",
+      "price": 18.0,
+      "description": "Prepared strictly without onion or garlic. Chunks of fish marinated in yogurt and spices, char-grilled to perfection.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "isGlutenFree": true,
+      "spiceLevel": "Medium",
+      "ingredients": [
+        "Spices"
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish"
+      ],
+      "calories": 354,
+      "prepTimeMinutes": 31,
+      "flavorProfile": [
+        "Smoky",
+        "Spicy",
+        "Tender"
+      ],
+      "winePairing": "Indian Pale Ale"
+    }
+  ]
+}
